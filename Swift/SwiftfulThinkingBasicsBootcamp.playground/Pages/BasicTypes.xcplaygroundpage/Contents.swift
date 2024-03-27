@@ -21,5 +21,5 @@ let myFirstDate: Date = Date()
 let myNumbers = 1
 let mySecondNumbers = 2.1
 
-let numbers: Double = 3.5
+let numbers = 3.5
 
