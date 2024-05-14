@@ -21,6 +21,16 @@ struct TextBootcamp: View {
             .frame(width: 200, height: 270, alignment: .center)
             .foregroundColor(Color.blue)
             .minimumScaleFactor(0.1)
+        
+        Spacer()
+        
+        Text("Hello, World! This is swiftUI Thiking")
+            .font(.title)
+            .multilineTextAlignment(.leading)
+            .frame(width: 200, height: 270, alignment: .center)
+            .foregroundColor(Color.blue)
+            .lineLimit(1)
+            .truncationMode(.middle)
     }
 }
 

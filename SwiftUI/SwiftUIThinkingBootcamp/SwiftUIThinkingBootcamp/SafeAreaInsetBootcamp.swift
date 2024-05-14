@@ -15,6 +15,11 @@ struct SafeAreaInsetBootcamp: View {
                 Rectangle()
                     .fill(Color.gray)
                     .frame(height: 300)
+                    .overlay(
+                            Image("image")
+                                .resizable()
+                                
+                        )
                     .clipShape(RoundedRectangle(cornerRadius: 25, style: /*@START_MENU_TOKEN@*/ .continuous/*@END_MENU_TOKEN@*/))
                     .padding()
             }
@@ -27,14 +32,14 @@ struct SafeAreaInsetBootcamp: View {
 //                ,alignment: .bottom
 //            }
             .safeAreaInset(edge: .top, alignment: .trailing, spacing: nil) {
-                Text("Hi")
+                Text("Home Page")
                     .frame(maxWidth: /*@START_MENU_TOKEN@*/ .infinity/*@END_MENU_TOKEN@*/)
                     .background(Color.yellow)
 //                    .clipShape(Circle())
 //                    .padding()
             }
             .safeAreaInset(edge: .bottom, alignment: .trailing, spacing: nil) {
-                Text("Hi")
+                Text("return")
                     .frame(maxWidth: /*@START_MENU_TOKEN@*/ .infinity/*@END_MENU_TOKEN@*/)
                     .background(Color.yellow.edgesIgnoringSafeArea(.bottom))
             }
