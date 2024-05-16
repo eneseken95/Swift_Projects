@@ -7,5 +7,5 @@
 
 
 #### 🚀 I've taken a new step forward and developed my own Todo list app using SwiftUI! 📱💼 
-#### - This app, developed using the MVVM architecture, helps me increase my productivity. 
-#### - MVVM ensures that the code is more readable, easier to maintain, and reusable.
+##### ->  This app, developed using the MVVM architecture, helps me increase my productivity. 
+##### ->  MVVM ensures that the code is more readable, easier to maintain, and reusable.
