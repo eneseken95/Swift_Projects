@@ -33,4 +33,18 @@
 #### API Testing:
 ##### -> Tested API requests and responses with Postman to ensure reliability and accuracy.
 
+### [3 - Person Scan 👥](https://github.com/eneseken95/PersonScan)
+<img src="https://github.com/eneseken95/PersonScan/blob/main/Screenshots.png" alt="Screenshoots" width="520" height="400" />
+
+#### 🚀 I've developed Person Scan app! 🧍‍♂️🔎 
+##### -> Person Scan is an iOS application built using Swift, SwiftUI, Vision, and AVFoundation that detects and counts people in real-time using the device’s camera.
+
+#### 🔍 Key Features:
+##### -> 🧍 Real-time human body detection using Vision’s VNDetectHumanRectanglesRequest.
+##### -> 🙂 Accurate face detection with VNDetectFaceRectanglesRequest.
+##### -> 🎥 Live camera feed with animated detection overlays.
+##### -> 🧊 Clean, modern SwiftUI interface with dynamic updates.
+##### -> 🛡️ Automatically handles camera permissions.
+
+
 
