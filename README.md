@@ -56,7 +56,7 @@
 ### [5 - Blockchain Sim+ 🔗](https://github.com/eneseken95/Blockchain_Sim_Plus)
 <img src="https://github.com/eneseken95/Blockchain_Sim_Plus/blob/main/Screenshots/Screenshot1.png" alt="Screenshoots" width="520" height="400" />
 
-#### 🚀 I’ve developed Blockchain Sim+! 🔗🧮
+#### 🚀 I’ve developed Blockchain Sim+ app! 🔗🧮
 ##### -> Blockchain Sim+ is a Swift/SwiftUI-powered interactive simulator that visualizes how blockchain systems work in real time.
 
 #### 🔍 Key Features:
