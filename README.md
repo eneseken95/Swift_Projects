@@ -1,4 +1,4 @@
-#   My goal is to be the best iOS developer !
+#   My goal is to be the best iOS developer!
 
 ## Projects 🚀
 
@@ -53,5 +53,17 @@
 ##### -> I developed UpQuest, an iOS application that allows event participants to submit questions in real time, vote on them, and ensure the most popular questions get answered first.
 ##### -> My Medium article about my UpQuest app ✏️ <a href="https://medium.com/@eneseken85/upquest-an-ios-app-to-make-event-q-a-sessions-interactive-d498870dd1b1">UpQuest</a>
 
+### [5 - Blockchain Sim+ 🔗](https://github.com/eneseken95/Blockchain_Sim_Plus)
+<img src="https://github.com/eneseken95/Blockchain_Sim_Plus/blob/main/Screenshots/Screenshot1.png" alt="Screenshoots" width="520" height="400" />
 
+#### 🚀 I’ve developed Blockchain Sim+! 🔗🧮
+##### -> Blockchain Sim+ is a Swift/SwiftUI-powered interactive simulator that visualizes how blockchain systems work in real time.
 
+#### 🔍 Key Features:
+##### -> 🔗 Build and visualize blockchains (blocks, hashes, chain links)
+##### -> ⚙️ Consensus simulation: Proof-of-Work & Proof-of-Stake
+##### -> 🌿 Fork detection & chain reorganization
+##### -> 📈 Live adjustable parameters (difficulty, block size, transaction rate)
+##### -> 🧊 Clean, modern SwiftUI interface with real-time animations
+##### -> 🧠 Modular architecture (MVVM + DI + Domain/Data/Presentation)
+##### -> 🎓 Perfect for students, developers, and anyone exploring blockchain fundamentals
