@@ -87,6 +87,18 @@
 ##### -> 🧠 Educational design: perfect for learning how encryption works by actually sending encrypted messages
 ##### -> 📡 Automatic local encryption/decryption pipeline before and after message transfer
 
+#### 🔐 AES & DES — Manual vs CommonCrypto Implementations:
+##### -> Hashchat includes both manual and library-based cryptographic systems for comparison and educational purposes.
+##### Manual Implementations:
+##### -> AES-128 CTR and DES CBC fully written in Swift, including round functions, S-boxes, permutations, and key scheduling.
+##### CommonCrypto Implementations:
+##### -> High-performance AES-128 CTR and DES CBC using Apple’s optimized cryptographic engine.
+##### Built-in Benchmark System:
+##### -> Measures and compares execution times of manual vs CommonCrypto implementations directly inside the app.
+
+##### Example output:
+<img src="https://github.com/eneseken95/Hashchat/blob/main/Screenshots/Screenshot6.png" alt="Screenshoots" width="350" height="550" />
+
 #### 🛡️ Security Validation with Wireshark
 ##### -> To verify that messages are truly encrypted end-to-end, I used Wireshark to inspect live WebSocket packets.
 ##### -> All transmitted messages appear as encrypted byte streams — ensuring no plain-text data ever leaves the device.
