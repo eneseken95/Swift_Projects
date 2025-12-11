@@ -99,6 +99,22 @@
 ##### Example output:
 <img src="https://github.com/eneseken95/Hashchat/blob/main/Screenshots/Screenshot6.png" alt="Screenshoots" width="350" height="550" />
 
+#### 🔑 RSA Encryption (Public-Key Cryptography)
+##### -> Hashchat now includes full RSA encryption & decryption support — built without external libraries.
+##### -> A 2048-bit RSA keypair is generated separately using a Swift Playground, exported in **DER format**, and encoded as Base64.
+##### -> The app loads these DER-wrapped keys (SubjectPublicKeyInfo for the public key, PKCS#1 for the private key) and uses Apple's Security framework for OAEP-SHA256 encryption.
+
+##### How it works:
+- Messages are encrypted with the RSA **public key** using OAEP + SHA-256.
+- The receiver decrypts the ciphertext using the **private key**.
+- Both simulators/devices can decrypt each other’s messages as long as they share the same DER keypair.
+- This implementation mirrors real-world public-key cryptography and demonstrates asymmetric encryption in a live chat environment.
+
+##### Educational Purpose:
+- Shows the difference between modern symmetric ciphers (AES/DES) and asymmetric ciphers (RSA).
+- Helps visualize encryption pipelines: plaintext → ciphertext → transport → RSA decryption.
+- Reinforces understanding of keypair management, DER structures, and OAEP padding.
+
 #### 🛡️ Security Validation with Wireshark
 ##### -> To verify that messages are truly encrypted end-to-end, I used Wireshark to inspect live WebSocket packets.
 ##### -> All transmitted messages appear as encrypted byte streams — ensuring no plain-text data ever leaves the device.
